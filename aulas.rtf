@@ -1,0 +1,257 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat\deflang1046{\fonttbl{\f0\fnil\fcharset0 Arial;}{\f1\fnil\fcharset0 Arial Black;}{\f2\fnil\fcharset0 Calibri;}}
+{\colortbl ;\red0\green0\blue255;}
+{\*\generator Riched20 10.0.19041}\viewkind4\uc1 
+\pard\sa200\sl276\slmult1\b\fs40\lang22\par
+\fs36 1- Aulas\par
+\b0\fs22 Primeiro criar a pasta nova e nemear o nome da pasta \par
+Abre Programa VsCode - File - Open Folder e procure que vc criou a pasta nova e clique.\par
+clique "New File"\par
+- index.html\par
+- styles.CSS\par
+\b\f1\par
+A base do HTML VsCode\par
+- index.html\b0\f2\par
+<!DOCTYPE html>\par
+<html>\par
+<head> </head>\par
+<body> </body>\par
+</html>\par
+---------------------------------------------------------------------------------------------------------------------------\par
+<!DOCTYPE html>\par
+<html>\par
+\par
+<head>\par
+    <title>Alura Plus</title>\par
+    <meta charset="UTF-8">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1">\par
+    <link rel="stylesheet" href="styles.css">\par
+</head>\par
+\par
+<body>\par
+</body>\par
+\par
+</html>\par
+\b\f0\fs44\par
+2- Aulas\par
+styles.css\par
+\b0\f2\fs22 :root \{\par
+        --branco-principal: #FFFFFF;\par
+        --cinza-secundario: #C0C0C0;\par
+        --botao-azul: #167BF7;\par
+        --cor-de-fundo: #00030C;\par
+\}\par
+body \{\par
+        background-color: var(--cor-de-fundo);\par
+        color: var(--branco-principal);\par
+\}\par
+* \{\par
+        margin: 0;\par
+        padding: 0;\par
+\}\par
+\par
+-----------------------------------------------------------------------------------------------------------\par
+Baixar Aplicativo VsCode\par
+"Live Server"\par
+---------------------------------------------------------------------------------------------------------\par
+<!DOCTYPE html>\par
+<html>\par
+\par
+<head>\par
+    <title>Alura Plus</title>\par
+    <meta charset="UTF-8">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1">\par
+    <link rel="stylesheet" href="styles.css">\par
+</head>\par
+<body>\par
+        <h1>Com o Combo+, voc\'ea pode aproveitar a Alura+ e o Alura L\'edngua por um pre\'e7o \'fanico.</h1>\par
+</body>\par
+\par
+</html>\b\f0\fs36\par
+3-Aula\par
+\b0\fs24 figma- salvar das imagens\par
+\par
+\b VsCode - index.html\par
+\b0 <!DOCTYPE html>\par
+<html>\par
+\par
+<head>    \par
+    <title>Alura Plus</title>\par
+    <meta charset="UTF-8">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1">\par
+    <link rel="stylesheet" href="styles.css">\par
+</head>\par
+\par
+<body>\par
+    <section class="container principal">\par
+    <h1>Com o Combo+, voc\'ea pode aproveitar a Alura+ e o Alura L\'edngua por um pre\'e7o \'fanico.</h1>\par
+    <img src="img/Combo.png" alt="O combo+ \'e9 a jun\'e7\'e3o do alura+ e o alura l\'edngua">\par
+    </section>\par
+</body>\par
+\par
+\par
+</html>\par
+\b\par
+style.CSS\par
+\b0 :root \{\par
+    --branco-principal: #FFFFFF;\par
+    --cinza-secundario: #C0C0C0;\par
+    --botao-azul: #167BF7;\par
+    --cor-de-fundo: #00030C;\par
+\}\par
+\par
+body \{\par
+    background-color: var(--cor-de-fundo);\par
+    color: var(--branco-principal);\par
+\}\par
+\par
+* \{\par
+    margin: 0;\par
+    padding: 0;\par
+\}\par
+\par
+.principal \{\par
+    background-image: url(img/Background.png);\par
+    background-repeat: no-repeat;\par
+    background-size: contain;\par
+\}\par
+\par
+.container \{\par
+    height: 100vh;\par
+\}\par
+\par
+\b\fs36 4-aula\par
+Criando um bot\'e3o\par
+\f1\fs22 - index.html\f0\fs36\par
+\b0\fs24 <body>\par
+    <section class="principal container">\par
+        <div>\par
+            <h1>Com o Combo+, voc\'ea pode aproveitar a Alura+ e o Alura L\'edngua por um pre\'e7o \'fanico.</h1>\par
+                <img src="img/Combo.png" alt="O combo+ \'e9 a jun\'e7\'e3o do alura+ e o alura l\'edngua">\par
+                <a href="{{\field{\*\fldinst{HYPERLINK www.alura.com.br }}{\fldrslt{www.alura.com.br\ul0\cf0}}}}\f0\fs24 " class="container__botao">Assine por 12x de R$ 120,00*</a>\par
+    </section>\par
+</body>\par
+\par
+</html>\par
+\par
+\b\fs28 - styles.css\par
+\b0\fs24 //C\'f3digo omitido\par
+\par
+.container__botao \{\par
+    background-color: var(--botao-azul);\par
+    border-radius: 5px;\par
+    padding: 1em;\par
+    color: var(--branco-principal);\par
+\}\par
+\par
+\b\fs36 5-aula\b0\fs24\par
+\b Grid e continua\'e7\'e3o\par
+- html\par
+\b0 //C\'f3digo omitido\par
+\par
+<body>\par
+    <section class="principal container">\par
+        <div>\par
+            <h1 class="container__titulo">Com o Combo+, voc\'ea pode aproveitar a Alura+ e o Alura L\'edngua por um pre\'e7o\par
+                \'fanico.</h1>\par
+            <img src="img/Combo.png" alt="O combo+ \'e9 a jun\'e7\'e3o do alura+ e o alura l\'edngua">\par
+            <a href="{{\field{\*\fldinst{HYPERLINK www.alura.com.br }}{\fldrslt{www.alura.com.br\ul0\cf0}}}}\f0\fs24 " class="container__botao">Assine por 12x de R$ 120,00*</a>\par
+            <a href="{{\field{\*\fldinst{HYPERLINK www.alura.com.br }}{\fldrslt{www.alura.com.br\ul0\cf0}}}}\f0\fs24 " class="container__botao botao_secundario">Assinar somente o Alura+</a>\par
+            <p class="container__aviso">*O pre\'e7o pode variar caso a assinatura seja feita em outros planos.</p>\par
+        </div>\par
+    </section>\par
+</body>\par
+\par
+</html>\par
+- \b CSS\par
+\b0 .container \{\par
+    height: 100vh;\par
+    display: grid;\par
+    grid-template-columns: 33% 33% 33%;   \par
+\}\par
+\par
+.container__botao \{\par
+    background-color: var(--botao-azul);\par
+    border-radius: 5px;\par
+    padding: 1em;\par
+    color: var(--branco-principal);\par
+    display: block;\par
+\}\par
+\par
+.botao__secundario \{\par
+    background-color: transparent;\par
+    border: 2px solid var(--branco-principal);\par
+\}\par
+\par
+\b\fs36 6-Aula\par
+Lidando com fontes\par
+\b0\fs24 estilo de fontes\par
+{{\field{\*\fldinst{HYPERLINK https://fonts.google.com/?preview.text=ol%C3%A1,%20tudo%20bem%3F&preview.size=56&query=bor }}{\fldrslt{https://fonts.google.com/?preview.text=ol%C3%A1,%20tudo%20bem%3F&preview.size=56&query=bor\ul0\cf0}}}}\f0\fs24\par
+pesquisa: "inter"\par
+bold 700 - select this style \par
+\b Index.Html\b0\par
+<head>    \par
+    <title>Alura Plus</title>\par
+    <meta charset="UTF-8">\par
+    <meta name="viewport" content="width=device-width, initial-scale=1">\par
+    <link rel="stylesheet" href="styles.css">\par
+    <link rel="preconnect" href="https://fonts.googleapis.com">\par
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\par
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">\par
+</head>\par
+\par
+<body>\par
+    <section class="principal container">\par
+        <div>\par
+            <h1 class="container__titulo">Com o Combo+, voc\'ea pode aproveitar a Alura+ e o Alura L\'edngua por um pre\'e7o\par
+                \'fanico.</h1>\par
+\b Styles.CSS\par
+\b0 body \{\par
+    background-color: var(--cor-de-fundo);\par
+    color: var(--branco-principal);\par
+    font-family: var(--fonte-principal);\par
+    font-size: 16px;\par
+    font-weight: 400;\par
+\}\par
+* \{\par
+    margin: 0;\par
+    padding: 0;\par
+\}\par
+\par
+.principal \{\par
+    background-image: url(img/Background.png);\par
+    background-repeat: no-repeat;\par
+    background-size: contain;\par
+\}\par
+\par
+.container \{\par
+    height: 100vh;\par
+    display: grid;\par
+    grid-template-columns: 50% 50%;   \par
+\}\par
+\par
+.container__botao \{\par
+    background-color: var(--botao-azul);\par
+    border-radius: 5px;\par
+    padding: 1em;\par
+    color: var(--branco-principal);\par
+    display: block;\par
+    text-decoration: none;\par
+\}\par
+.botao_secundario \{\par
+    background-color: transparent;\par
+    border: 2px solid var(--branco-principal);\par
+\}\par
+.container__aviso \{\par
+    font-size: 12px;\par
+    color: var(--cinza-secundario);\par
+\}\par
+.container__titulo \{\par
+    font-size: 28px;\par
+    font-weight: 700;\par
+\}\par
+\par
+\b\fs28 7- Aula\par
+Margins e paddings\par
+\b0\fs24\par
+}
+ 
